@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module2.caudo"
+    android:background="@color/bg_fragment"
+    tools:ignore="MissingDefaultResource">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_radius_blue_bottom"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="?attr/actionBarSize"
+                    android:theme="?attr/actionBarTheme"
+                    app:navigationIcon="@drawable/ic_back_arrow_white" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/almarai_bold"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="10dp"
+                    android:shadowColor="#000000"
+                    android:text="Câu đố dân gian"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center|end"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_button"
+                        android:padding="2dp"
+                        android:src="@drawable/avata1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/almarai_bold"
+                android:textColor="@color/black"
+                android:text="Câu 1"
+                android:gravity="center"
+                android:textSize="30dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai_bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Con gì có 4 chân vào buổi sáng, 2 chân vào buổi trưa, và3 chân vào buổi tối?"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai_bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:text="\nCon người\n"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/border1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai_bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:text="\nCon chim\n"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/border1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai_bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:text="\nCon chồn\n"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/border1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/almarai_bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:text="\nCon trâu\n"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/border1"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="1100px"
+        android:layout_height="1600px"
+        android:layout_gravity="center"
+        android:background="@drawable/nengiaithich"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:textSize="22dp"
+        android:fontFamily="@font/almarai_bold"
+
+        android:text="Đáp án đây: A. Người. Đố này dựa trên câu chuyện cổ của Hy Lạp về Oedipus, giải thích rằng người ta thời trẻ ('buổi sáng') bò bằng 4 chân, khi trưởng thành ('buổi trưa') đi bằng 2 chân, và khi già ('buổi tối') sử dụng gậy để hỗ trợ đi lại, trông như có 3 chân."
+        android:visibility="visible" />
+
+</FrameLayout>
